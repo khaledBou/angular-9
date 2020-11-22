@@ -12,6 +12,7 @@ var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = "Liste des pokémons";
         this.values = "";
+        this.age = 20;
     }
     AppComponent.prototype.ngOnInit = function () {
         //Called after the constructor, initializing input properties, and the first call to ngOnChanges.

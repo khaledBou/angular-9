@@ -13,6 +13,8 @@ export class AppComponent {
   private title: string = "Liste des pokémons";
   values = "";
 
+  age = 20;
+
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
